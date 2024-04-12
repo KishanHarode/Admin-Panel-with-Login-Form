@@ -1,0 +1,148 @@
+
+   .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    width: 100%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .btn-success {
+    color: #fff;
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  
+  .btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  .customButton {
+    width: 50%;
+  }
+  
+  .customFont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    border-bottom: 1px double lightgrey;
+    display: block;
+  }
+  
+  .formContainer {
+    width: 50%;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .postionSuccess {
+    position: absolute;
+    top: 40px;
+    width: 50%;
+  }
+  
+  .fauserPosition {
+    position: absolute;
+    left: 370px;
+    top: 270px;
+  }
+  
+  .falockPosition {
+    position: absolute;
+    left: 370px;
+    top: 330px;
+  }
+  
+  .faeyePosition {
+    position: absolute;
+    left: 890px;
+    top: 330px;
+    cursor: pointer;
+  }
+
+  .boxSuccess{
+    border: 1px solid rgb(126, 186, 80);
+    background-color: rgb(162, 236, 123);
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+
+  .boxDanger{
+    border: 1px solid rgb(220, 122, 81);
+    background-color: rgb(220, 122, 81);
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+
+  
+  
+  @media screen and (max-width: 800px) {
+    .login-container {
+      background-position: center;
+    }
+  
+    .formContainer {
+      width: 100%;
+      
+    }
+  
+    .fauserPosition {
+      left: 30px;
+      top: 46%;
+    }
+  
+    .falockPosition {
+      left: 30px;
+      top: 55%;
+    }
+  
+    .faeyePosition {
+      left: 89%;
+      top: 55%;
+    }
+  
+    .postionSuccess {
+      width: 80%;
+    }
+  
+    .customButton {
+      width: 80%;
+    }
+  
+    /* .invalid-feedback {
+      position: relative;
+      left: 0;
+      top: 2rem;
+    } */
+    .error1{
+      left: 50px;
+      top: 46%;
+    }
+    
+  }
+  

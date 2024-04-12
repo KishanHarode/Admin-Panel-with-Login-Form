@@ -1,0 +1,53 @@
+.scrollable{
+    max-height: 150px;
+    overflow-y: auto;
+}
+.scrollable:hover{
+    cursor: pointer;
+}
+.scrollable::-webkit-scrollbar{
+    width: 12px;
+}
+.scrollable::-webkit-scrollbar-track{
+    background: #fff;
+}
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #28a745;
+    border-radius: 10px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background: green;
+}
+.patient-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: 5px;
+}
+.name{
+    flex: 1;
+    margin-left: -15px;
+}
+.score{
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+.patientCard{
+    width: 300px;
+    height: 250px;
+    margin-left: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+@media  screen and (max-width:800px) {
+    .patientCard{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

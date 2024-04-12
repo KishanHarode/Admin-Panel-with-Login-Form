@@ -1,0 +1,19 @@
+.CustomUser{
+    max-height: 380px;
+    overflow-y: auto;
+}
+.CustomUser::-webkit-scrollbar{
+    width: 0px;
+}
+.CustomUser::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+.CustomUser::-webkit-scrollbar-thumb{
+    background-color: #28a745;
+    border-radius: 10px;
+    
+}
+.CustomUser::-webkit-scrollbar-thumb:hover{
+    background-color: green;
+}
+  

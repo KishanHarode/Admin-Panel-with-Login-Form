@@ -1,0 +1,46 @@
+/* .customCardComponent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    row-gap: 10px;
+} */
+.container1{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.container1::-webkit-scrollbar{
+    width: 0px;
+}
+.customCard1Component{
+    width: 220px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in box-shadow 0.3s ease-in;
+}
+.customCardBody{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    
+}
+.customCard1Component:hover{
+    transform: translate(0px,-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:600px) {
+    .flexContainer{
+       flex-direction: column;
+       column-gap:0px;
+    }
+    .customCard1Component{
+        width: 280%;
+        margin-left: -100px;
+    }
+    
+}

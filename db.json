@@ -1,0 +1,84 @@
+{
+  "PatientData": [
+    {
+      "PatientName": "Amit Patel",
+      "Age": "23",
+      "Gender": "Male",
+      "BloodType": "AB+",
+      "Diagnosis": "Asthma",
+      "date": "2024-04-25",
+      "Treatment": "YuroKinesis Surgery",
+      "id": 1
+    },
+    {
+      "PatientName": "Shilpa Raut",
+      "Age": "21",
+      "Gender": "Female",
+      "BloodType": "B+",
+      "Diagnosis": "High Colestrol",
+      "date": "2024-04-19",
+      "Treatment": "Statin and Colestrol Mediation",
+      "id": 2
+    },
+    {
+      "PatientName": "Shilpa Raut",
+      "Age": "45",
+      "Gender": "Female",
+      "BloodType": "B+",
+      "Diagnosis": "Hypertension",
+      "date": "2024-04-18",
+      "Treatment": "Lowering sodium and alcohol intake",
+      "id": 3
+    },
+    {
+      "PatientName": "Rajesh Gupta",
+      "Age": "35",
+      "Gender": "Male",
+      "BloodType": "O+",
+      "Diagnosis": "Type 2 Diabetes",
+      "date": "2024-04-20",
+      "Treatment": "Insulin therapy and dietary management",
+      "id": 5
+    },
+    {
+      "PatientName": "Ananya Singh",
+      "Age": "28",
+      "Gender": "Female",
+      "BloodType": "A-",
+      "Diagnosis": "Anemia",
+      "date": "2024-04-22",
+      "Treatment": "Iron supplements and dietary changes",
+      "id": 6
+    },
+    {
+      "PatientName": "Aarav Deshmukh",
+      "Age": "50",
+      "Gender": "Male",
+      "BloodType": "AB-",
+      "Diagnosis": "Coronary Artery Disease",
+      "date": "2024-04-18",
+      "Treatment": "Angioplasty and medication",
+      "id": 7
+    },
+    {
+      "PatientName": "Ria Sharma",
+      "Age": "17",
+      "Gender": "Female",
+      "BloodType": "O-",
+      "Diagnosis": "Iron Deficiency",
+      "date": "2024-04-23",
+      "Treatment": "Iron supplements and dietary changes",
+      "id": 8
+    },
+    {
+      "PatientName": "Sanjay Mehta",
+      "Age": "65",
+      "Gender": "Male",
+      "BloodType": "A+",
+      "Diagnosis": "Hypertension",
+      "date": "2024-04-20",
+      "Treatment": "Medication and lifestyle modifications",
+      "id": 9
+    }
+  ]
+}

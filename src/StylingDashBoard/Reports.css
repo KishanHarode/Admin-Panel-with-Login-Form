@@ -1,0 +1,126 @@
+.heading {
+  position: relative;
+}
+
+.heading::before,
+.heading::after {
+  content: '';
+  position: absolute;
+  width: calc(45% - 50px);
+  height: 1px;
+  background-color: black;
+  top: 50%;
+}
+
+.heading::before {
+  left: 0;
+}
+
+.heading::after {
+  right: 0;
+}
+
+.error-message {
+  color: #cc0000;
+  font-size: 14px;
+  margin-top: 2px;
+  font-family: sans-serif;
+}
+
+.error1,.error4{
+  position: absolute;
+  left: 250px;
+}
+
+.error2,.error5{
+  position: absolute;
+  left: 595px;
+}
+
+.error3,.error6{
+  position: absolute;
+  left: 940px;
+}
+
+@media screen and (max-width:800px) {
+
+  .heading::before,
+  .heading::after {
+    content: '';
+
+    width: calc(40%-50px);
+  }
+
+  .inputContainer1,
+  .inputContainer2 {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .FormContainer {
+    max-height: 280px;
+    overflow: scroll;
+  }
+
+  .FormContainer::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .fontheading1 {
+    font-size: 14px;
+  }
+
+  .MainFormBody {
+    margin-top: 290px;
+  }
+
+  .inputContainer1 .input1 .patientInput {
+    border: 1px solid rgb(50, 214, 50);
+    width: 385%;
+  }
+
+  .inputContainer1 .input2 .ageInput {
+    border: 1px solid rgb(50, 214, 50);
+    width: 385%;
+  }
+
+  .inputContainer1 .input3 .genderInput {
+    border: 1px solid rgb(50, 214, 50);
+    width: 385%;
+  }
+
+  .inputContainer2 .input3 .bloodTypeInput {
+    border: 1px solid rgb(50, 214, 50);
+    width: 385%;
+  }
+
+  .inputContainer2 .input4 .diagnosisInput {
+    border: 1px solid rgb(50, 214, 50);
+    width: 385%;
+  }
+
+  .inputContainer2 .input4 .dateInput {
+    border: 1px solid rgb(50, 214, 50);
+    width: 385%;
+  }
+
+  .inputContainer2 .input4 .textareaInput {
+    border: 1px solid rgb(50, 214, 50);
+    margin-left: 3px;
+
+  }
+
+  .inputContainer3 .inputButton .inputbtn {
+    border: 1px solid red;
+    width: 200%;
+    margin-bottom: 10px;
+  }
+  
+  .error1,.error2,.error3,.error4,.error5,.error6{
+    display: none;
+  }
+  
+
+
+
+}

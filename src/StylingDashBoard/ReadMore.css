@@ -1,0 +1,41 @@
+.ReadContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap:10px ;
+}
+.ReadContainer .item1{
+    max-width: 500px;
+    max-height: 400px;
+}
+.ReadContainer .item2{
+    max-width: 500px;
+    max-height: 400px;
+}
+.para3{
+    text-align: left;
+    font-size: 14px;
+}
+
+@media screen and (max-width:800px){
+    .ReadContainer .item1{
+      margin-top: 120px;
+      /* border: 1px solid red; */
+    }
+    .MainContainer{
+        /* border: 1px solid red; */
+        max-height: 400px;
+        overflow: scroll;
+    }
+
+    .MainContainer::-webkit-scrollbar{
+        width: 0px;
+    }
+    
+    .ReadContainer1 .item2 .para3{
+      margin-bottom: 10px;
+      text-align: center;
+      /* border: 1px solid red; */
+    }
+}
+

@@ -1,0 +1,72 @@
+.headerStyle{
+    color: #fff;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.headerLogo{
+    margin-left: 5px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.4);
+}
+
+.navStyle{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    left: 790px;
+    top: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navStyle a.active{
+    color: white;
+    font-size: 1rem;
+}
+
+.linkStyle{
+    text-decoration: none;
+    color: lightgrey;
+    margin-right: 20px;
+}
+
+.linkStyle:hover{
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customLogoMedicare{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+
+
+.avatarStyle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.userStyle{
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.4);
+}
+
+.user-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+    #chart {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    #chart .apexcharts-title-text {
+      font-size: 12px; /* Adjust the font size as needed */
+      white-space: normal; /* Allow wrapping */
+      max-width: 100%; /* Ensure it takes full width */
+      overflow: hidden; /* Hide overflow */
+      text-overflow: ellipsis;
+      text-align: center; /* Add ellipsis for overflow text */
+    }
+  }
+  

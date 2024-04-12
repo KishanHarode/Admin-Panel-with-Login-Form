@@ -1,0 +1,16 @@
+.customContainer{
+    width: 100%;
+}
+/* .DashboardContainer{
+    max-height: 410px;
+    overflow: scroll;
+    border: 1px solid red;
+    padding: 10px 0px;
+} */
+.DashboardContainer::-webkit-scrollbar{
+    width: 0px;
+}
+
+@media screen  and (max-width:"800px"){
+    
+}

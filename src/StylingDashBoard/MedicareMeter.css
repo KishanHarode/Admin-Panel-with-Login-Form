@@ -1,0 +1,51 @@
+.customSpan{
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 25px;
+   position: absolute;
+   left: 160px;
+   top: 140px;
+   color: white;
+}
+.customSpan1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    color: white;
+}
+
+.customCard{
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter:hue-rotate(300deg);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3 ease-in box-shadow 0.3 ease-in;
+}
+
+@media  screen and (max-width:800px) {
+    .customCard{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        height: 340px;
+    }
+    .customSpan{
+        top: 200px;
+        left: 230px;
+    }
+    .customSpan1{
+        top: 240px;
+        left: 190px;
+    }
+}
+
+
+
